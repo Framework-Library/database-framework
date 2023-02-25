@@ -1,7 +1,7 @@
-package games.negative.framework.structure;
+package games.negative.framework.db.structure;
 
-import games.negative.framework.model.SQLColumn;
-import games.negative.framework.model.SQLColumnType;
+import games.negative.framework.db.model.SQLColumn;
+import games.negative.framework.db.model.SQLColumnType;
 
 public class SQLColumnImpl implements SQLColumn {
 

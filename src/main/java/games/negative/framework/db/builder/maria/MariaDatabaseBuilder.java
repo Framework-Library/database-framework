@@ -1,13 +1,13 @@
-package games.negative.framework.builder.maria;
+package games.negative.framework.db.builder.maria;
 
 import com.google.common.collect.Lists;
-import games.negative.framework.MariaDatabase;
-import games.negative.framework.SQLDatabase;
-import games.negative.framework.exception.DriverNotFoundException;
-import games.negative.framework.exception.InvalidConnectionException;
-import games.negative.framework.model.SQLColumn;
-import games.negative.framework.model.SQLColumnType;
-import games.negative.framework.model.SQLTable;
+import games.negative.framework.db.MariaDatabase;
+import games.negative.framework.db.SQLDatabase;
+import games.negative.framework.db.exception.DriverNotFoundException;
+import games.negative.framework.db.exception.InvalidConnectionException;
+import games.negative.framework.db.model.SQLColumn;
+import games.negative.framework.db.model.SQLColumnType;
+import games.negative.framework.db.model.SQLTable;
 import org.jetbrains.annotations.NotNull;
 
 import java.sql.*;

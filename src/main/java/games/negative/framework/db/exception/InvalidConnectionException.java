@@ -1,4 +1,4 @@
-package games.negative.framework.exception;
+package games.negative.framework.db.exception;
 
 import java.sql.SQLException;
 

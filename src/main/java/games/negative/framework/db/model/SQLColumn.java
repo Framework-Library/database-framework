@@ -1,4 +1,4 @@
-package games.negative.framework.model;
+package games.negative.framework.db.model;
 
 /**
  * Interface for objects that represent a column in a database.

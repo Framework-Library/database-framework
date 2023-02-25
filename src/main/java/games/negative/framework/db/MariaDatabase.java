@@ -1,7 +1,7 @@
-package games.negative.framework;
+package games.negative.framework.db;
 
-import games.negative.framework.exception.DriverNotFoundException;
-import games.negative.framework.exception.InvalidConnectionException;
+import games.negative.framework.db.exception.DriverNotFoundException;
+import games.negative.framework.db.exception.InvalidConnectionException;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

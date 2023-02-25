@@ -1,8 +1,8 @@
-package games.negative.framework.builder.mysql;
+package games.negative.framework.db.builder.mysql;
 
-import games.negative.framework.model.SQLColumn;
-import games.negative.framework.model.SQLColumnType;
-import games.negative.framework.structure.SQLColumnImpl;
+import games.negative.framework.db.model.SQLColumn;
+import games.negative.framework.db.model.SQLColumnType;
+import games.negative.framework.db.structure.SQLColumnImpl;
 
 public class MySQLColumnBuilder {
 

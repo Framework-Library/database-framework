@@ -1,4 +1,4 @@
-package games.negative.framework.model;
+package games.negative.framework.db.model;
 
 /**
  * Enum for the different types of columns in a SQL table.

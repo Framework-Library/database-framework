@@ -1,4 +1,4 @@
-package games.negative.framework.model;
+package games.negative.framework.db.model;
 
 import org.jetbrains.annotations.NotNull;
 

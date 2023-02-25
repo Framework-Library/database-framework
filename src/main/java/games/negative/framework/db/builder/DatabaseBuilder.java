@@ -1,8 +1,8 @@
-package games.negative.framework.builder;
+package games.negative.framework.db.builder;
 
-import games.negative.framework.builder.maria.MariaDatabaseBuilder;
-import games.negative.framework.builder.mysql.MySQLDatabaseBuilder;
-import games.negative.framework.builder.sqlite.SQLiteDatabaseBuilder;
+import games.negative.framework.db.builder.maria.MariaDatabaseBuilder;
+import games.negative.framework.db.builder.mysql.MySQLDatabaseBuilder;
+import games.negative.framework.db.builder.sqlite.SQLiteDatabaseBuilder;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.File;

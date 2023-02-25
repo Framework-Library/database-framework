@@ -1,4 +1,4 @@
-package games.negative.framework.exception;
+package games.negative.framework.db.exception;
 
 /**
  * Exception thrown when a driver is not found.

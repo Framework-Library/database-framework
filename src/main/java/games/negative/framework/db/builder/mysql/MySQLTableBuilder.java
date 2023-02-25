@@ -1,9 +1,9 @@
-package games.negative.framework.builder.mysql;
+package games.negative.framework.db.builder.mysql;
 
-import games.negative.framework.model.SQLColumn;
-import games.negative.framework.model.SQLColumnType;
-import games.negative.framework.model.SQLTable;
-import games.negative.framework.structure.SQLTableImpl;
+import games.negative.framework.db.model.SQLColumn;
+import games.negative.framework.db.model.SQLColumnType;
+import games.negative.framework.db.model.SQLTable;
+import games.negative.framework.db.structure.SQLTableImpl;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.LinkedList;

@@ -1,7 +1,7 @@
-package games.negative.framework.structure;
+package games.negative.framework.db.structure;
 
-import games.negative.framework.model.SQLColumn;
-import games.negative.framework.model.SQLTable;
+import games.negative.framework.db.model.SQLColumn;
+import games.negative.framework.db.model.SQLTable;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.LinkedList;
