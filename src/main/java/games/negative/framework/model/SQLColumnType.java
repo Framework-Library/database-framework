@@ -14,6 +14,7 @@ public enum SQLColumnType {
     FLOAT,
     DOUBLE,
     DECIMAL,
+    LONG,
 
     // Date and Time
     DATE,
@@ -27,6 +28,7 @@ public enum SQLColumnType {
     VARCHAR,
     TINYTEXT,
     TEXT,
+    BOOLEAN,
     MEDIUMTEXT,
     LONGTEXT,
     BINARY,
