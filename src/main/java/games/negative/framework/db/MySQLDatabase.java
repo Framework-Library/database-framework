@@ -24,7 +24,8 @@ public class MySQLDatabase implements SQLDatabase {
         }
 
         try {
-            this.connection = DriverManager.getConnection("jdbc:mysql://" + host + ":" + port + "/" + database, username, password);
+            String url = "jdbc:mysql://" + host + ":" + port + "/" + database + "?user=" + username + "&password=" + password + "&useSSL=false" + "&autoReconnect=true";
+            this.connection = DriverManager.getConnection(url);
         } catch (SQLException e) {
             throw new InvalidConnectionException("Could not connect to database '" + database + "' on host '" + host + "' with username '" + username + "'!");
         }

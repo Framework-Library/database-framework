@@ -20,7 +20,8 @@ public class MariaDatabase implements SQLDatabase {
         }
 
         try {
-            this.connection = DriverManager.getConnection("jdbc:mariadb://" + host + ":" + port + "/" + database, username, password);
+            String url = "jdbc:mariadb://" + host + ":" + port + "/" + database + "?user=" + username + "&password=" + password + "&useSSL=false" + "&autoReconnect=true";
+            this.connection = DriverManager.getConnection(url);
         } catch (SQLException e) {
             throw new InvalidConnectionException("Could not connect to database '" + database + "' on host '" + host + "' with username '" + username + "'!");
         }
